@@ -1,0 +1,16 @@
+/* Descendant Selector */
+div p {
+  background-color: yellow;
+}
+/* Child Selector */
+div > p {
+  color: red;
+}
+/* Adjacent Sibling Selector */
+div + p {
+  border: 2px double #32a1ce;
+}
+/* General Sibling Selector */
+div ~ p {
+  padding: 0.5rem;
+}

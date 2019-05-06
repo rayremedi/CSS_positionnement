@@ -1,0 +1,16 @@
+.tooltips {
+  position: relative;
+  color: blue;
+  display: inline;
+}
+
+.tooltips:hover::after {
+  content: attr(aria-label);
+  background-color: #f8f8f8;
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  width: 110px;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+}

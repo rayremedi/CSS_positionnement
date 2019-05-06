@@ -1,0 +1,31 @@
+.icone-container {
+  display: flex;
+}
+.icone-container button {
+  margin: 0 20px 0;
+}
+
+button {
+  position: relative;
+  background-color: #8a1a32;
+  border-radius: 10px;
+  height: 45px;
+  width: 160px;
+  color: white;
+}
+button:hover {
+  background-color: #ac203f;
+}
+
+i {
+  transform: rotate(-25deg) scale(1);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  font-size: 29px;
+  display: flex;
+}
+i:hover {
+  transform: rotate(-20deg) scale(1.3);
+}

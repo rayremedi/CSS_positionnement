@@ -1,0 +1,44 @@
+/* Floated Columns */
+.Floated_columns {
+  height: 300px;
+}
+.Floated_columns p {
+  height: 150px;
+  border: 2px solid grey;
+  float: left;
+  background-color: salmon;
+  color: white;
+}
+
+.Floated_columns .cinq {
+  float: right;
+}
+/* FLEXED BOXES */
+.Flexed_boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.Flexed_boxes > p {
+  color: white;
+  height: 150px;
+  width: 150px;
+  border: 2px solid grey;
+
+  background-color: aqua;
+}
+/* GRID TEMPLATE */
+.Grid_template {
+  color: white;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 8% 4% auto 4% 8%;
+  grid-template-rows: 95px;
+}
+.Grid_template .six {
+  display: grid;
+  grid-template-rows: 120px;
+}
+.Grid_template p {
+  background-color: salmon;
+  border: 2px solid grey;
+}

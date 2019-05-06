@@ -1,0 +1,73 @@
+#cards-container {
+  border: solid black 6px;
+}
+#cards-container {
+  position: absolute;
+  display: flex;
+}
+
+/* CARTES */
+.cards {
+  position: relative;
+  height: 530px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  border: solid black 10px;
+}
+.cards-txt {
+  margin: 0 0 0 30px;
+  display: flex;
+  position: relative;
+  bottom: 92px;
+  flex-direction: column;
+}
+
+.cards-txt h1 {
+  font-size: 23px;
+  text-transform: uppercase;
+}
+.cards-txt p {
+  position: relative;
+  bottom: 25px;
+}
+/* IMAGES */
+
+.cards-img {
+  position: relative;
+  bottom: 260px;
+  left: 30px;
+  border: 2px solid red;
+  height: 70px;
+  width: 70px;
+  text-transform: uppercase;
+  color: white;
+  background-color: lightseagreen;
+}
+
+.cards-img p {
+  height: 50px;
+  position: relative;
+  bottom: 20px;
+  left: 18px;
+}
+.cards img {
+  height: 300px;
+  width: 380px;
+}
+
+.cards button {
+  position: relative;
+  /* bottom: 30px; */
+  text-transform: uppercase;
+  color: white;
+  height: 40px;
+  width: 200px;
+  background-color: #1abc9c;
+}
+
+/* HOVER */
+
+.cards:hover img {
+  transform: scale(1.1);
+}
