@@ -1,0 +1,143 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+/* PREMIERE RANGEE */
+.row {
+  margin-top: 10px;
+
+  /* border: black 2px solid; */
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row .blue {
+  background: lightseagreen;
+  height: 100px;
+  width: 250px;
+}
+.row .orange {
+  height: 100px;
+  width: 1520px;
+  background: orange;
+}
+
+/* DEUXIEME RANGEE */
+.row2 {
+  margin: 15px 0 0 15px;
+}
+.salmon {
+  height: 500px;
+  width: 1805px;
+  background: orangered;
+}
+
+/* TROISIEME RANGEE */
+.row3 {
+  margin: 15px 0px 0px 0px;
+  height: 280px;
+  /* border: solid black 4px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.yellow {
+  /* border: solid maroon 4px; */
+  height: 250px;
+  width: 580px;
+  background: yellow;
+}
+
+@media screen and (max-width: 680px) {
+  .row {
+    margin: 10px 5px 0 5px;
+
+    /* border: black 2px solid; */
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .row .blue {
+    background: lightseagreen;
+
+    width: 750px;
+  }
+  .row .orange {
+    position: relative;
+    left: 5px;
+    width: 500px;
+    background: orange;
+  }
+  /* DEUXIEME RANGEE */
+  .row2 {
+    margin: 10px 0 0 5px;
+  }
+  .salmon {
+    height: 500px;
+    width: 550px;
+    background: orangered;
+  }
+  .row3 {
+    margin: 0px 0px 0px 5px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+
+    /* border: solid black 4px; */
+  }
+
+  .row3 .yellow {
+    /* border: solid maroon 4px; */
+    margin: 10px 0 0 0;
+    width: 550px;
+    background: yellow;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .row {
+    margin: 10px 5px 0 5px;
+
+    /* border: black 2px solid; */
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .row .blue {
+    background: lightseagreen;
+
+    width: 750px;
+  }
+  .row .orange {
+    position: relative;
+    left: 5px;
+    width: 500px;
+    background: orange;
+  }
+  /* DEUXIEME RANGEE */
+  .row2 {
+    margin: 10px 0 0 5px;
+  }
+  .salmon {
+    height: 500px;
+    width: 880px;
+    background: orangered;
+  }
+  .row3 {
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+
+    /* border: solid black 4px; */
+  }
+
+  .row3 .yellow {
+    /* border: solid maroon 4px; */
+    margin: 10px 0 0 6px;
+    width: 250px;
+    background: yellow;
+  }
+}
